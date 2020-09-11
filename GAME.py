@@ -35,8 +35,10 @@ for i in range(11):
 print("-------GAME OVER--------")
 if human_point>computer_point:
     print("Human wins Computer loose")
+elif human_point<computer_point:
+    print("Computer wins human loose")
 else:
-    print("Computer wins Human loose")
+    print("TIE")
 print(f"The human point is {human_point} & the computer point is {computer_point}")
 
 
